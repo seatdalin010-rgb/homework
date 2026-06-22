@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0"
+    <title>Student Registration Form</title>
+</head>
+<body>
+    <h1>Student Registration Form</h1>
+<form>
+    <label for="fullname">Full Name</label><br>
+    <input type="text" id="fullname" name="fullname" placeholder="text input" style="width:300px"><br><br>
+    <label for="email">Email</label><br>
+    <input type="email" id="email" name="email" placeholder="email input" style="width:300px"><br><br>
+    <label for="gender">Gender</label><br>
+  <select id="gender" name="gender" style="width:308px">
+    <option value="">select option</option>
+    <option value="male">Male</option>
+    <option value="female">Female</option>
+    <option value="other">Other</option>
+  </select><br><br>
+  <label for="course">Course</label><br>
+  <select id="course" name="course" style="width:308px">
+    <option value="">select option</option>
+    <option value="html">HTML Basics</option>
+    <option value="lists">Lists, Links and Images</option>
+    <option value="tables">Tables and Forms</option>
+  </select><br><br> 
+  <label for="message">Message</label><br>
+  <textarea id="message" name="message" rows="5" cols="40" placeholder="textarea"></textarea><br><br>
+  <input type="checkbox" id="agree" name="agree">
+  <label for="agree">I agree to class rules</label><br><br>
+  <input type="submit" value="Register">
+</form>
+</body>
+</html>
